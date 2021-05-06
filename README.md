@@ -9,7 +9,7 @@ algorithm), all of which were found to be successful with different data-sets, s
 up a new record to beat for researchers.
 
 ## Contributions
-- I have study the state-of-the-art methods for imbalanced data set classification.
+- I carried out a thorough literature survey of the state-of-the-art methods for imbalanced data set classification.
 - To overcome the tail label problem in multi-label classification, we have done
 data augmentation using the concept of oversampling, instead of cloning the
 instances.
@@ -17,8 +17,8 @@ instances.
 and ADASYN.
 - I have used the concept of self-training in multi-label classification for predicting
 the label matrix for a instance.
-- I have also used different evaluation metrics to find out the better result among
-them in data sets.
+- I have also used different evaluation metrics to find out the best result among
+them in data science. 
 #
 ![text](https://github.com/ruchi-9/Handling-Tail-labels-with-self-supervised-and-other-methods/blob/master/Screenshots/Tail%20labels.PNG)
 #
@@ -30,13 +30,13 @@ them in data sets.
 #
 ![text](https://github.com/ruchi-9/Handling-Tail-labels-with-self-supervised-and-other-methods/blob/master/Screenshots/algo%203.PNG)
 ## Experimental Analysis
-In my experiment, i have took five-fold cross-validation approach for separating the training
-and testing data. The data set divide in the ratio of 80:20 for training and testing
-respectively along with analysis on a different value of K and Number of the sample
-generated for each instance, finally concluding better result on selecting K as 5 in
+In my experiment, I have taken five-fold cross-validation approach for separating the training
+and testing data. The data set was divided in the ratio of 80:20 for training and testing
+respectively. Analysis of different values of K and Number of the sample
+generated for each instance, shows that better result on selecting K as 5 in
 SMOTE and self-iteration vary for each data set in Self training.
 For finding out whether the approach helps in improving tail labels classification or
-not, i have separated the tail labels from the data set and experiment on them.
+not, I have separated the tail labels from the data set and experiment on them.
 
 
 ![text](https://github.com/ruchi-9/Handling-Tail-labels-with-self-supervised-and-other-methods/blob/master/Screenshots/Result%201.PNG)
